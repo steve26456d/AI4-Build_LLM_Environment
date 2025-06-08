@@ -60,7 +60,7 @@ tokenizer = AutoTokenizer.from_pretrained(
     "path\to\your\model", 
     trust_remote_code=True
 )
-model = AutoModel.from_pretrained(
+model = AutoModelForCausalLM.from_pretrained(
     "path\to\your\model",
     trust_remote_code=True,
     torch_dtype=torch.bfloat16
@@ -81,9 +81,11 @@ ChatGLM:
 ![ChatGLM](Picture/gitclone-chatglm.png)
 
 Qwen:
-![Qwen](Picture/gitclone-Qwen.png)
+![Qwen](Picture/gitclone-qwen.png)
 
-
+Baichuan:
+![Baichuan](Picture/gitclone-baichuan1.png)
+![Baichuan](Picture/gitclone-baichuan2.png)
 
 ### 2.2 回答问题
 
@@ -95,4 +97,9 @@ Chatglm3-6b:
 ![chatglm3-6b-5](Picture/ChatGLM/Fifth-Question.png)
 
 Qwen:
-![qwen-7b-Chat](Picture/Qwen/First-Question.png)
+![qwen-7b-Chat-1](Picture/Qwen/First-Question.png)
+![qwen-7b-Chat-2](Picture/Qwen/Second-Question.png)
+![qwen-7b-Chat-3](Picture/Qwen/Third-Question.png)
+![qwen-7b-Chat-4](Picture/Qwen/Forth-Question.png)
+![qwen-7b-Chat-5](Picture/Qwen/Fifth-Question.png)
+## 3. 横向对比

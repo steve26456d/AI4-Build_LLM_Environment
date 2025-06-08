@@ -1,7 +1,7 @@
 import streamlit as st
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModel,AutoModelForCausalLM
 import torch
-st.title("ModelName")
+st.title("Model")
 
 # 初始化所有必要的会话状态变量
 if 'messages' not in st.session_state:
@@ -18,11 +18,11 @@ if st.session_state.tokenizer is None or st.session_state.model is None :
     with st.spinner("正在加载模型，请稍候..."):
         try:
                 tokenizer = AutoTokenizer.from_pretrained(
-                    "path\to\your\model", 
+                    "/path/to/model", 
                     trust_remote_code=True
                 )
                 model = AutoModelForCausalLM.from_pretrained(
-                    "path\to\your\model",
+                    "/path/to/model",
                     trust_remote_code=True,
                     torch_dtype="auto"
                 ).eval()
