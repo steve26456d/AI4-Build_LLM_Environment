@@ -78,21 +78,21 @@ streamlit run chat.py
 ### 2.1 git clone仓库
 
 ChatGLM:
-![ChatGLM](Picture\gitclone-chatglm.png)
+![ChatGLM](Picture/gitclone-chatglm.png)
 
 Qwen:
-![Qwen](Picture\gitclone-Qwen.png)
+![Qwen](Picture/gitclone-Qwen.png)
 
 
 
 ### 2.2 回答问题
 
 Chatglm3-6b:
-![chatglm3-6b-1](Picture\ChatGLM\First-Question.png)
-![chatglm3-6b-2](Picture\ChatGLM\Second-Question.png)
-![chatglm3-6b-3](Picture\ChatGLM\Third-Question.png)
-![chatglm3-6b-4](Picture\ChatGLM\Forth-Question.png)
-![chatglm3-6b-5](Picture\ChatGLM\Fifth-Question.png)
+![chatglm3-6b-1](Picture/ChatGLM/First-Question.png)
+![chatglm3-6b-2](Picture/ChatGLM/Second-Question.png)
+![chatglm3-6b-3](Picture/ChatGLM/Third-Question.png)
+![chatglm3-6b-4](Picture/ChatGLM/Forth-Question.png)
+![chatglm3-6b-5](Picture/ChatGLM/Fifth-Question.png)
 
 Qwen:
-![qwen-7b-Chat](Picture\Qwen\First-Question.png)
+![qwen-7b-Chat](Picture/Qwen/First-Question.png)
