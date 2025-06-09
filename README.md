@@ -28,6 +28,14 @@ pip install \
 "transformers==4.33.3" \
 "modelscope==1.9.5" \
 "pydantic==1.10.13" \
+"sentencepiece" \
+"tiktoken" \
+"einops" \
+"transformers_stream_generator" \
+"uvicorn" \
+"fastapi" \
+"yacs" \
+"setuptools_scm"
 
 pip install fschat --use-pep517
 
